@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LED 제어</title> <!-- 웹 페이지 제목 -->
+</head>
+<body>
+
+    <h1>LED ON/OFF</h1> <!-- 페이지 제목 -->
+
+    <!-- LED 켜기 버튼 -->
+    <form action="/data" method="post">
+        <button name="led" value="on">ON</button> <!-- 서버로 led=on 전송 -->
+    </form>
+
+    <!-- LED 끄기 버튼 -->
+    <form action="/data" method="post">
+        <button name="led" value="off">OFF</button> <!-- 서버로 led=off 전송 -->
+    </form>
+
+</body>
+</html>
